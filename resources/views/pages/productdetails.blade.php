@@ -6,21 +6,15 @@
     body{
         background-color:#161618;
     }
-    h2{
-        color: white;
-    }
-    td{
-        color: white;
-    }
 </style>
 <div class="container">
     <div class="row">
         <div class="col-md-12 mt-2">
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item" style="color: white;"><a href="/"class=" text-decoration-none">Home</a></li>
-                    <li class="breadcrumb-item" style="color: white;"><a href="/product"class=" text-decoration-none">Product</a></li>
-                    <li class="breadcrumb-item active" aria-current="page"style="color: white;">Details</li>
+                    <li class="breadcrumb-item" ><a href="/"class=" text-light text-decoration-none">Home</a></li>
+                    <li class="breadcrumb-item" ><a href="/product"class=" text-light text-decoration-none">Product</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Details</li>
                 </ol>
             </nav>
         </div>

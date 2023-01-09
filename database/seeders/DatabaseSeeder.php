@@ -37,20 +37,20 @@ class DatabaseSeeder extends Seeder
 
         DB::table('categories')->insert([
             'name' => 'Asus',
-            'images' => 'Asus.png'
+            'images' => 'vinyl.png'
         ]);
 
         DB::table('categories')->insert([
             'name' => 'Legion',
-            'images' => 'Legion.png'
+            'images' => 'vinyl.png'
         ]);
         DB::table('categories')->insert([
             'name' => 'Omen',
-            'images' => 'omen.png'
+            'images' => 'vinyl.png'
         ]);
         DB::table('categories')->insert([
             'name' => 'Predator',
-            'images' => 'predator.png'
+            'images' => 'vinyl.png'
         ]);
     }
 }
